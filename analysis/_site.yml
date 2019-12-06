@@ -1,7 +1,7 @@
-name: "mirage"
+name: mirage
 output_dir: ../docs
 navbar:
-  title: "mirage"
+  title: mirage
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/han16/mirage
 output:
   workflowr::wflow_html:
     toc: yes
