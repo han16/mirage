@@ -6,4 +6,10 @@ output:
     toc: false
 ---
 
+mirage is a new Bayesian statistical method for rare variant (RV) association testing that better accounts for heterogeneity of variant effects within a gene using external annotation information. It models variants in a gene as a mixture of risk and non-risk variants, with a prior probability of being a risk variant determined by functional annotations of the variant such as conservation score and impact on protein structure. Since in general external annotations alone have limited accuracy in predicting functional effects, a simple filter based on such annotations (as commonly performed in many RV association analysis) may result in both false positive and negatives. Instead, by incorporating such information as prior and using a hierarchical model to pool information across genes, mirage is able to better characterize the inclusion probability of rare variants for different functional categories, thus improving the power to detect an association.
+
+
+
+
+
 Welcome to my research website.
