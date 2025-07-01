@@ -1,4 +1,5 @@
-# Code for "Your Paper Title"
+# Code for "MIRAGE: a Bayesian statistical method for gene-level rare variant analysis
+incorporating functional annotations"
 
 This repository contains code and data to reproduce the results in our paper:
 MIRAGE: a Bayesian statistical method for gene-level rare variant analysis
