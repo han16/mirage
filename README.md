@@ -1,5 +1,11 @@
-# mirage
+# Code for "Your Paper Title"
 
-A [workflowr][] project.
+This repository contains code and data to reproduce the results in our paper:
+MIRAGE: a Bayesian statistical method for gene-level rare variant analysis
+incorporating functional annotations. 
 
-[workflowr]: https://github.com/jdblischak/workflowr
+## Requirements
+- R version 4.2+ 
+- Packages listed in `requirements.txt` or `environment.yml`
+
+## Running the analysis
