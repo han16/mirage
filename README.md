@@ -6,7 +6,7 @@ incorporating functional annotations.
 
 ## Requirements
 - R version 4.2+ 
-- Packages listed in `requirements.txt` or `environment.yml`
+- Packages required `SKAT`, `ACAT`, `AssotesteR`
 
 ## Running the analysis
 
