@@ -10,7 +10,7 @@ incorporating functional annotations.
 
 ## Running the analysis
 
-`Simulations.R` is the main code to run simulations.  
+`Simulations.R` in folder code is the main code to run simulations.  
 
 ## R package 
 
