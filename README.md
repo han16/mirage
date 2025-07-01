@@ -13,4 +13,7 @@ incorporating functional annotations.
 
 ## R package 
 
+This is the R pacage [MIRAGE](https://xinhe-lab.github.io/mirage/)
+
+
 ## Citation
