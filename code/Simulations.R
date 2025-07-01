@@ -425,25 +425,6 @@ for (run in 1:max.run) {
   detach("package:AssotesteR", unload=TRUE)
   #####################
   
-  par(mfrow=c(1,3))
-  if (num.group==1)
-  {
-    plot(beta.k, ylim=c(0, 1), main=expression(paste (beta)), xlab="Iteration index", ylab="")
-    abline(h=pi[1], col="red")
-  }
-  if (num.group>1)
-    plot(beta.k[,1], ylim=c(0, 1), main=expression(paste (beta[1])), xlab="Iteration index", ylab="")
-  #abline(h=pi[1], col="red")
-  abline(h=actu.pi[run,1], col="red")
-  plot(beta.k[,2], ylim=c(0, 1), main=expression(paste (beta[2])), xlab="Iteration index", ylab="")
-  #abline(h=pi[2], col="red")
-  abline(h=actu.pi[run,2], col="red")
-  #plot(beta.k[,3], ylim=c(0, 1), main=expression(paste (beta[3])), xlab="Iteration index", ylab="")
-  #abline(h=pi[3], col="red")
-  plot(delta.est, ylim=c(0, 1), main=expression(delta), xlab="Iteration index", ylab="")
-  abline(h=delta, col="red")
-  #beta.k
-  #pi
   all.pi[run,]=c(beta.k[(iter-1),], delta.est[iter-1])
   
   TP[run,]=c(sum(mirage.pvalue<0.05), sum(fisher.pvalue<0.05), sum(skat.pvalue<0.05))/num.gene
