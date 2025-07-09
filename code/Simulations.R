@@ -79,7 +79,7 @@ num.group=3
 split.ratio=c(0, 0.6, 0.9, 1)
 pi=numeric(num.group)
 pi[1]=0.05; pi[2]=0.2; pi[3]=0.5
-max.run=5
+max.run=1
 MAC_threshold=0
 all.pi=matrix(nrow=max.run, ncol=(num.group+1))
 all.teststat=matrix(nrow=max.run, ncol=num.group)
