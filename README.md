@@ -10,7 +10,8 @@ incorporating functional annotations.
 
 ## Running the analysis
 
-+ `Simulations.R` in folder code is the main code to generate simulated data, run EM algorithm and calculate p values by other methods.  
++ `Simulations.R` in folder code is the main code to generate simulated data, run EM algorithm and calculate p values by other methods.
++ `code/Figure S2.R` is the R code to draw Figures in S2. 
 
 ## R package 
 
