@@ -11,7 +11,8 @@ incorporating functional annotations.
 ## Running the analysis
 
 + `Simulations.R` in folder code is the main code to generate simulated data, run EM algorithm and calculate p values by other methods.
-+ `code/Figure S2.R` is the R code to draw Figures in S2. 
++ `code/Figure S2.R` is the R code to draw Figures in S2, with randm number of variants in a genes when simulating the data.
++ `code/Figure 2 and S2.R` is the code to draw Figure 2 and S2 with same number of variants in a gene when simulating the data.  
 
 ## R package 
 
